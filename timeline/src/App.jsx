@@ -5,6 +5,7 @@ import './App.css'
 import Line from './components/Line/Line'
 import YearMarker from './components/YearMarker/YearMarker'
 import dummyData from './data/dummyData.json'
+import HeadPage from './components/HeadPage/HeadPage'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <HeadPage/>
       {
         dummyData.map((slot, key)=>{
           if (slot['type'] == "imgEvent"){
