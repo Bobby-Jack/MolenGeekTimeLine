@@ -1,0 +1,27 @@
+[
+    {
+        "type" : "imgEvent",
+        "title" : "title1",
+        "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "imgUrl" : "dummy.png",
+        "imgAlt" : "dummy 01"
+    },
+    {
+        "type" : "yearMarker",
+        "year" : "16"
+    },
+    {
+        "type" : "imgEvent",
+        "title" : "title1",
+        "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "imgUrl" : "dummy.png",
+        "imgAlt" : "dummy 01"
+    },
+    {
+        "type" : "imgEvent",
+        "title" : "title1",
+        "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "imgUrl" : "dummy.png",
+        "imgAlt" : "dummy 01"
+    }
+]

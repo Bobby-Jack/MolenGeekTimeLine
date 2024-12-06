@@ -1,0 +1,14 @@
+.YearMarker{
+    height: 5px;
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.YearMarkerYear{
+    position: absolute;
+    left: 5%;
+    top: -80px;
+    font-size: 5em;
+}
