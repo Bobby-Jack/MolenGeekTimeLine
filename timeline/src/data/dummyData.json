@@ -2,7 +2,11 @@
     {
         "type" : "imgEvent",
         "title" : "title1",
+        "titleEN" : "titleEN",
+        "titleNL" : "titleEN",
         "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentEN" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentNL" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
         "imgUrl" : "dummy.png",
         "imgAlt" : "dummy 01"
     },
@@ -13,14 +17,37 @@
     {
         "type" : "imgEvent",
         "title" : "title1",
+        "titleEN" : "titleEN",
+        "titleNL" : "titleEN",
         "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentEN" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentNL" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
         "imgUrl" : "dummy.png",
         "imgAlt" : "dummy 01"
     },
     {
         "type" : "imgEvent",
         "title" : "title1",
+        "titleEN" : "titleEN",
+        "titleNL" : "titleEN",
         "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentEN" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentNL" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "imgUrl" : "dummy.png",
+        "imgAlt" : "dummy 01"
+    },
+    {
+        "type" : "yearMarker",
+        "year" : "17"
+    },
+    {
+        "type" : "imgEvent",
+        "title" : "title1",
+        "titleEN" : "titleEN",
+        "titleNL" : "titleEN",
+        "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentEN" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
+        "textContentNL" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci consequatur mollitia.",
         "imgUrl" : "dummy.png",
         "imgAlt" : "dummy 01"
     }
