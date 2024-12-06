@@ -6,14 +6,17 @@ import Line from './components/Line/Line'
 import YearMarker from './components/YearMarker/YearMarker'
 import dummyData from './data/dummyData.json'
 import HeadPage from './components/HeadPage/HeadPage'
+import LanguageButton from './components/LanguageButton/LanguageButton'
 
 function App() {
 
   const [invers, setInvers] = useState(true)
+  const [language, setLanguage] = useState('fr')
 
 
   return (
     <>
+      <LanguageButton language={language} setLanguage={setLanguage}/>
       <HeadPage/>
       {
         dummyData.map((slot, key)=>{

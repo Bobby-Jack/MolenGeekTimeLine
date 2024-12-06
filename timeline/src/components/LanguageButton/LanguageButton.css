@@ -1,0 +1,75 @@
+.LanguageButton{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 3;
+    box-shadow: rgb(0, 0, 0, 0.5) 0px 0px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.LanguageButtonChoices{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    
+    animation: show1 0.5s ease;
+    animation-fill-mode: forwards;
+}
+
+.LanguageButtonChoice{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 3;
+    box-shadow: rgb(0, 0, 0, 0.5) 0px 0px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.LanguageButtonChoice.active{
+    background-color: grey;
+    
+}
+
+
+
+@keyframes show1 {
+    0%{
+        opacity: 0;
+        bottom: 0;
+        transform: scaleY(0);
+    }
+    100%{
+        opacity: 1;
+        bottom: -180px;
+        transform: scaleY(1);
+    }
+}
+
+
+.LanguageButton:hover{
+    box-shadow: rgb(0, 0, 0, 0.7) 0px 0px 25px;
+    
+
+}
+
+.LanguageButton svg{
+    height: 70%;
+    width: 70%;
+    
+}
